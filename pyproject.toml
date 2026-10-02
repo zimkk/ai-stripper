@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 authors = [
-    { name = "AI-STRIPPER Open Source Team" }
+    { name = "zimkk", email = "hassannazir955@gmail.com" }
 ]
 keywords = [
     "openai-stripper",
