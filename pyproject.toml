@@ -13,12 +13,12 @@ authors = [
     { name = "zimkk", email = "hassannazir955@gmail.com" }
 ]
 keywords = [
+    "ai-stripper",
     "openai-stripper",
     "chatgpt-image-cleaner",
     "gemini-metadata-remover",
     "dalle3-metadata",
     "c2pa-remover",
-    "ai-stripper",
     "exif-remover",
     "privacy-shield",
     "terminal-app",
@@ -38,11 +38,12 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/zimkk/openai-stripper"
-Issues = "https://github.com/zimkk/openai-stripper/issues"
+Homepage = "https://github.com/zimkk/ai-stripper"
+Issues = "https://github.com/zimkk/ai-stripper/issues"
 
 [project.scripts]
 ai-stripper = "stripper:main"
+openai-stripper = "stripper:main"
 stripper = "stripper:main"
 
 [tool.setuptools]

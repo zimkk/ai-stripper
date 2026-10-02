@@ -62,8 +62,8 @@ ai-stripper
 
 ### 3. Developer Run
 ```bash
-git clone https://github.com/zimkk/openai-stripper.git
-cd openai-stripper
+git clone https://github.com/zimkk/ai-stripper.git
+cd ai-stripper
 pip install -r requirements.txt
 python stripper.py
 ```
