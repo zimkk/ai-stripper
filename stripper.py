@@ -145,9 +145,9 @@ def play_boot_animation():
 
     boot_steps = [
         ("[bold cyan]>> [SYS-INIT][/bold cyan] Booting AI-STRIPPER Cyber-Defense Core v" + VERSION, 0.04),
-        ("[bold green][+][/bold green] EXIF Auto-Transpose Matrix ............. [bold green]ONLINE[/bold green]", 0.03),
-        ("[bold magenta][+][/bold magenta] C2PA JUMBF Manifest Disassembler ....... [bold magenta]ACTIVE[/bold magenta]", 0.03),
-        ("[bold yellow][+][/bold yellow] AI Prompt & Latent Tag Vaporizer ....... [bold yellow]ARMED[/bold yellow]", 0.03),
+        ("[bold green][+][/bold green] OpenAI (ChatGPT/DALL-E) C2PA Vaporizer ... [bold green]ONLINE[/bold green]", 0.03),
+        ("[bold magenta][+][/bold magenta] Google Gemini & Imagen Metadata Eradicator . [bold magenta]ACTIVE[/bold magenta]", 0.03),
+        ("[bold yellow][+][/bold yellow] Latent AI Prompt & Workflow Vaporizer ...... [bold yellow]ARMED[/bold yellow]", 0.03),
         ("[bold blue][+][/bold blue] LCMS Wide-Gamut sRGB Color Shield ...... [bold blue]CALIBRATED[/bold blue]", 0.03),
         ("[bold green][+][/bold green] Incognito Sanitization Pipeline ........ [bold green]READY[/bold green]\n", 0.04),
     ]
@@ -486,7 +486,7 @@ def display_inspection_report(info: Dict[str, Any]):
     table.add_row("Format & Mode", f"{info['format']} ({info['color_mode']})")
     table.add_row("Dimensions", info["dimensions"])
     table.add_row("Color Profile", info["icc_profile"] or "[dim]None / Untagged[/dim]")
-    table.add_row("C2PA Content Credentials", "[bold red][!] Detected (Provenance Tracking)[/bold red]" if info["c2pa_detected"] else "[green]Not detected[/green]")
+    table.add_row("C2PA Content Credentials", "[bold red][!] Detected (OpenAI / Gemini / C2PA Provenance)[/bold red]" if info["c2pa_detected"] else "[green]Not detected[/green]")
 
     console.print(Panel(table, title=title_text, border_style="cyan", expand=False))
 
@@ -842,7 +842,7 @@ def get_input_path(prompt_text: str, default: Optional[str] = None, must_exist: 
 def print_banner(uncleaned_count: Optional[int] = None):
     """Renders the stylized application banner."""
     console.clear()
-    subtitle = "[bold cyan]AI-STRIPPER Core[/bold cyan] • [dim]C2PA & Synthetic Metadata Eradicator[/dim]"
+    subtitle = "[bold cyan]AI-STRIPPER Core[/bold cyan] • [dim]OpenAI (ChatGPT) & Google Gemini Metadata Vaporizer[/dim]"
     if uncleaned_count is not None and uncleaned_count > 0:
         subtitle += f" • [bold yellow][!] {uncleaned_count} unstripped images detected[/bold yellow]"
 

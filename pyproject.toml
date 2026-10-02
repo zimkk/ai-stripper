@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ai-stripper"
 version = "2.1.0"
-description = "High-performance interactive terminal application to inspect and vaporize EXIF, GPS, C2PA, and AI generation metadata from images."
+description = "The #1 Free & Open-Source tool to vaporize invisible OpenAI (ChatGPT) & Google Gemini metadata, C2PA credentials, and EXIF from images."
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
@@ -13,13 +13,14 @@ authors = [
     { name = "AI-STRIPPER Open Source Team" }
 ]
 keywords = [
-    "ai-stripper",
-    "metadata-stripper",
+    "openai-stripper",
+    "chatgpt-image-cleaner",
+    "gemini-metadata-remover",
+    "dalle3-metadata",
     "c2pa-remover",
+    "ai-stripper",
     "exif-remover",
-    "ai-metadata",
     "privacy-shield",
-    "tui",
     "terminal-app",
     "rich"
 ]
