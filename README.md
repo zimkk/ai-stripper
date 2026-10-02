@@ -14,8 +14,8 @@
 
 <p align="center">
   <a href="https://github.com/zimkk"><img src="https://img.shields.io/badge/Author-zimkk-black?style=for-the-badge&logo=github&logoColor=white" alt="Author zimkk"></a>
-  <a href="https://github.com/zimkk/openai-stripper"><img src="https://img.shields.io/badge/OpenAI%20(ChatGPT)-Purged-10a37f?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Purged"></a>
-  <a href="https://github.com/zimkk/openai-stripper"><img src="https://img.shields.io/badge/Google%20Gemini-Purged-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini Purged"></a>
+  <a href="https://github.com/zimkk/ai-stripper"><img src="https://img.shields.io/badge/OpenAI%20(ChatGPT)-Purged-10a37f?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Purged"></a>
+  <a href="https://github.com/zimkk/ai-stripper"><img src="https://img.shields.io/badge/Google%20Gemini-Purged-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini Purged"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge" alt="MIT License"></a>
   <a href="#"><img src="https://img.shields.io/badge/Privacy-100%25%20Offline-7928CA?style=for-the-badge&logo=auth0&logoColor=white" alt="100% Offline"></a>
 </p>
