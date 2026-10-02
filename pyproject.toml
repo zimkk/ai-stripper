@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-stripper"
+version = "2.1.0"
+description = "High-performance interactive terminal application to inspect and vaporize EXIF, GPS, C2PA, and AI generation metadata from images."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "AI-STRIPPER Open Source Team" }
+]
+keywords = [
+    "ai-stripper",
+    "metadata-stripper",
+    "c2pa-remover",
+    "exif-remover",
+    "ai-metadata",
+    "privacy-shield",
+    "tui",
+    "terminal-app",
+    "rich"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Security",
+    "Environment :: Console"
+]
+dependencies = [
+    "pillow>=10.2.0",
+    "rich>=13.7.0",
+    "prompt-toolkit>=3.0.40"
+]
+
+[project.urls]
+Homepage = "https://github.com/zimkk/openai-stripper"
+Issues = "https://github.com/zimkk/openai-stripper/issues"
+
+[project.scripts]
+ai-stripper = "stripper:main"
+stripper = "stripper:main"
+
+[tool.setuptools]
+py-modules = ["stripper"]
